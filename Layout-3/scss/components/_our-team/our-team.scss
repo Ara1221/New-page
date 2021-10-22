@@ -1,0 +1,75 @@
+.our-team-block {
+  @include title-new(left);
+  margin-top: 135px;
+  .about-staff {
+    display: flex;
+
+    .big-img {
+      width: 320px;
+      height: 460px;
+      background-color: $images-color;
+      margin: 70px 0 20px 0;
+    }
+    .cards-and-name-wrapper {
+      padding: 0 0 0 70px;
+
+      .about-big-img {
+        padding: 80px 0 0 0;
+
+        .cards-and-name-wrapper__name {
+          text-transform: uppercase;
+          font-size: 30px;
+        }
+
+        .cards-and-name-wrapper__descripton {
+          padding-top: 35px;
+          max-width: 640px;
+        }
+      }
+    }
+
+    .cards-list {
+      display: flex;
+      padding-top: 35px;
+
+      .cards-list__programs {
+        font-size: 18px;
+        font-weight: 600;
+        &:not(:first-child) {
+          padding-left: 20px;
+        }
+      }
+    }
+
+    .staff-gallery__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      .staff-gallery__photo {
+        width: 190px;
+        height: 200px;
+        margin: 61px 0 0 0;
+        background-color: $images-color;
+
+        &:not(:first-child) {
+          margin-left: 40px;
+        }
+
+        .staff-gallery__hidden-name {
+          display: none;
+        }
+
+        &:hover {
+          .staff-gallery__hidden-name {
+            display: block;
+            text-align: center;
+            margin-top: 170px;
+            padding: 5px 0;
+            background: $staff-gallery__name-bg;
+            color: white;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

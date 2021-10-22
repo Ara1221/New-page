@@ -1,0 +1,28 @@
+header {
+  background: $header-and-main-preview-bg;
+  padding-top: 30px;
+  .container {
+    background: $header-and-footer-color;
+
+    .menu-wrapper {
+      display: flex;
+      justify-content: center;
+
+      &__link-wrapper {
+        padding: 33px 20px 33px 20px;
+      }
+
+      &__link-wrapper:hover {
+        cursor: pointer;
+        background: $btn_bg-and-border-color;
+      }
+
+      &__link {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+  }
+}

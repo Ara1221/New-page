@@ -1,0 +1,39 @@
+.main-preview {
+  background: $header-and-main-preview-bg;
+  padding: 100px 0 125px 0;
+
+  .flex-block {
+    display: flex;
+    justify-content: space-between;
+
+    .main-preview__title {
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 1.2;
+      text-transform: uppercase;
+      padding-bottom: 18px;
+      max-width: 590px;
+    }
+
+    .main-preview__text {
+      font-size: $middle-font;
+      font-weight: normal;
+      max-width: 700px;
+      line-height: 2;
+      padding-bottom: 50px;
+    }
+
+    .main-preview-btn-wrapper {
+      background-color: $btn_bg-and-border-color;
+      max-width: 200px;
+      &__btn {
+        @extend %main-previews-button-style;
+      }
+    }
+
+    .video-wrapper__video {
+      width: 550px;
+      height: 360px;
+    }
+  }
+}

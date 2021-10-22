@@ -1,0 +1,20 @@
+@mixin title-new($text-align) {
+  @extend %products-team-form-blocks-titles;
+
+  .title-and-sub-title {
+    text-align: $text-align;
+
+    .title-and-sub-title__title {
+      text-align: $text-align;
+    }
+
+    .title-and-sub-title__sub-tile {
+      text-align: $text-align;
+
+      @if $text-align == "center" {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+

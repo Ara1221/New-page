@@ -1,0 +1,40 @@
+.design-tips-block-wrapper {
+  margin-top: 115px;
+  padding-bottom: 140px;
+  background: $images-color;
+
+  .design-title-and-sub-title {
+    line-height: 2;
+    text-align: center;
+    padding-top: 140px;
+
+    &__title {
+      font-weight: 700;
+      color: white;
+      font-size: $large-font;
+    }
+
+    &__sub-title {
+      color: white;
+      font-size: 16px;
+    }
+  }
+  .input-and-btn-wrapper {
+    padding: 75px 0 0 0;
+    display: flex;
+    justify-content: center;
+  }
+  .input-wrapper__input {
+    border: white;
+    padding: 18px 200px 18px 30px;
+    border-radius: 5px;
+  }
+
+  .btn-wrapper {
+    padding: 0 0 0 20px;
+  }
+
+  .btn-wrapper__btn {
+    @extend %design-button-style;
+  }
+}

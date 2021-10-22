@@ -1,0 +1,53 @@
+.form-block-wrapper {
+  @include title-new(left);
+  margin-top: 100px;
+  .input-and-contact-info-wrapper {
+    display: flex;
+    padding-top: 75px;
+    .input-wrapper {
+      width: 50%;
+
+      .input-name-wrapper__name {
+        @extend %input-and-texarea-visual-view;
+      }
+    }
+
+    .input-email-wrapper {
+      margin-left: 50px;
+
+      .input-name-wrapper__email {
+        @extend %input-and-texarea-visual-view;
+      }
+    }
+
+    .texarea-wrapper {
+      padding-top: 45px;
+      .texarea-wrapper__message-area {
+        @extend %input-and-texarea-visual-view;
+        resize: none;
+      }
+    }
+
+    .form-btn-wrapper {
+      padding: 45px 0 100px;
+      .form-btn-wrapper__btn {
+        padding: 15px 194px;
+        @extend %form-button-style;
+      }
+    }
+
+    .info-content-wrapper {
+      background-color: #2d2d2d;
+      color: white;
+      margin: 0 0 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 3;
+
+      .info-wrapper {
+        padding: 0 200px 0 70px;
+      }
+    }
+  }
+}

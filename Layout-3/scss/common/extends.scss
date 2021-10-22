@@ -1,0 +1,70 @@
+%input-and-texarea-visual-view {
+  padding: 10px 18px;
+  border: none;
+  background: $input-bg-color;
+  border-radius: 8px;
+}
+
+%products-team-form-blocks-titles {
+  .title-and-sub-title {
+    &::after {
+      content: "";
+      display: inline-block;
+      margin: 0 auto;
+      width: 180px;
+      height: 2px;
+      background-color: $line-color;
+    }
+
+    .title-and-sub-title__title {
+      font-size: 42px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+
+    .title-and-sub-title__sub-tile {
+      max-width: 500px;
+      font-size: $middle-font;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+%form-button-style {
+  padding: 20px 200px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: $btn_bg-and-border-color;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+%design-button-style {
+  padding: 16px 50px;
+  border-radius: 5px;
+  border: 2px solid $btn_bg-and-border-color;
+  background: $btn_bg-and-border-color;
+  cursor: pointer;
+  color: white;
+}
+
+%main-previews-button-style {
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 57px 10px 57px;
+}
+
+%services-button-style {
+  font-weight: bold;
+  text-decoration: none;
+  color: $btn_bg-and-border-color;
+  border: 2px solid $btn_bg-and-border-color;
+  padding: 10px 60px;
+  border-radius: 5px;
+}

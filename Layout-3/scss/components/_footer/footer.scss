@@ -1,0 +1,25 @@
+footer {
+  background: $header-and-footer-color;
+  padding: 40px 0 30px 0;
+
+  .text-and-menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer-text {
+      color: white;
+    }
+  }
+
+  .footer-menu-wrapper {
+    display: flex;
+
+    .footer-menu-wrapper__link-wrapper {
+      padding-left: 15px;
+    }
+    .footer-menu-wrapper__photo-wrapper {
+      display: inline-block;
+    }
+  }
+}
