@@ -1,0 +1,92 @@
+@media (max-width: 1283px) {
+  .design-tips-block-wrapper {
+    .container {
+      width: 1000px;
+
+      .design-title-and-sub-title{
+        .design-title-and-sub-title__title{
+          font-size: $lg-font;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .design-tips-block-wrapper {
+    .container {
+      width: 992px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .design-tips-block-wrapper {
+    .container {
+      width: 767px;
+      .design-title-and-sub-title{
+        .design-title-and-sub-title__title {
+          font-size: 30px;
+        }
+      }
+
+      .input-and-btn-wrapper{
+        .input-wrapper {
+          .input-wrapper__input {
+            width: 380px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .design-tips-block-wrapper {
+    .container {
+      width: 500px;
+      .design-title-and-sub-title{
+        .design-title-and-sub-title__title{
+          font-size: 20px;
+        }
+        .design-title-and-sub-title__sub-title{
+          font-size: $sm-font;
+        }
+      }
+
+      .input-and-btn-wrapper{
+        .input-wrapper{
+            .input-wrapper__input{
+              width: 300px;
+            }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .design-tips-block-wrapper {
+    .container {
+      width: 100%;
+
+      .input-and-btn-wrapper{
+        display: inherit;
+
+        .input-wrapper{
+          display: block;
+          .input-wrapper__input{
+            width: 100%;
+          }
+        }
+
+        .btn-wrapper{
+          padding: 20px 0 0 0;
+          .btn-wrapper__btn{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -26,8 +26,14 @@
     .main-preview-btn-wrapper {
       background-color: $btn_bg-and-border-color;
       max-width: 200px;
+      border-radius: 5px;
       &__btn {
-        @extend %main-previews-button-style;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 57px 10px 57px;
       }
     }
 

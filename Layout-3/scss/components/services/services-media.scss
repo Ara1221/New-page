@@ -1,0 +1,120 @@
+@media (max-width: 1283px) {
+  .services-block-wrapper {
+    .container {
+      width: 1000px;
+
+      .providing-block{
+        .providing-block__title{
+          font-size: $lg-font;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .providing-block__text{
+          font-size: $sm-font;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        .learn-more-wrapper{
+          text-align: center;
+          .learn-more-wrapper__btn{
+            display: inline-block;
+          }
+        }
+      }
+
+      .services {
+        display: inherit;
+
+        .types-of-services-block__wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          margin: 40px auto;
+          .types-of-services-block {
+            margin-top: 20px;
+            width: 50%;
+            .icon-wrapper{
+              padding-left: 230px;
+            }
+            .types-of-services-block__text-wrapper{
+              text-align: center;
+              .types-of-services-block__text{
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+       }
+      }
+    }
+  }
+
+
+@media (max-width: 1000px) {
+  .services-block-wrapper {
+    .container {
+      width: 992px;
+      }
+    }
+  }
+
+
+@media (max-width: 992px) {
+  .services-block-wrapper {
+    .container {
+      width: 767px;
+      .services{
+        .types-of-services-block__wrapper{
+          .types-of-services-block {
+            .icon-wrapper {
+              padding-left: 170px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .services-block-wrapper {
+    .container {
+      width: 500px;
+      .services {
+
+        .types-of-services-block__wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .types-of-services-block{
+              width: 100%;
+            .icon-wrapper{
+              padding-left: 230px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .services-block-wrapper {
+    .container {
+      width: 100%;
+
+      .services{
+        .types-of-services-block__wrapper{
+          .types-of-services-block{
+            .types-of-services-block__text-wrapper{
+              .types-of-services-block__text{
+                max-width: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

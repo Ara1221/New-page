@@ -23,18 +23,22 @@
     padding: 75px 0 0 0;
     display: flex;
     justify-content: center;
-  }
-  .input-wrapper__input {
-    border: white;
-    padding: 18px 200px 18px 30px;
-    border-radius: 5px;
-  }
+    .input-wrapper {
 
-  .btn-wrapper {
-    padding: 0 0 0 20px;
-  }
+      .input-wrapper__input {
+        border: white;
+        padding: 18px 0 18px 30px;
+        width: 500px;
+        border-radius: 5px;
+      }
+    }
 
-  .btn-wrapper__btn {
-    @extend %design-button-style;
+    .btn-wrapper {
+      padding: 0 0 0 20px;
+    }
+
+    .btn-wrapper__btn {
+      @extend %design-button-style;
+    }
   }
 }

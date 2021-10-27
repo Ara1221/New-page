@@ -1,0 +1,132 @@
+@media (max-width: 1283px) {
+  .our-team-block {
+    .container {
+      width: 1000px;
+
+      .title-and-sub-title__title {
+        font-size: $lg-font;
+      }
+
+      .title-and-sub-title__sub-title {
+        font-size: $sm-font;
+      }
+
+      .about-staff {
+
+          .big-img {
+            height: 380px;
+          }
+
+          .staff-gallery__wrapper {
+            .staff-gallery__photo {
+              width: 120px;
+              height: 120px;
+
+              .staff-gallery__hidden-name {
+                display: none;
+              }
+
+              &:hover {
+                .staff-gallery__hidden-name {
+                  margin-top: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+@media (max-width: 1000px) {
+  .our-team-block {
+    .container {
+      width: 992px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .our-team-block {
+    .container {
+      width: 767px;
+
+      .title-and-sub-title{
+        text-align: center;
+        .title-and-sub-title__title{
+          text-align: center;
+        }
+        .title-and-sub-title__sub-tile{
+          margin: 0 auto;
+          text-align: center  ;
+        }
+      }
+
+      .about-staff{
+        display: inherit;
+        .big-img{
+          height: 350px;
+        }
+
+        .cards-and-name-wrapper{
+          padding: 0;
+          .about-big-img{
+            padding-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .our-team-block {
+    .container {
+      width: 500px;
+
+      .about-staff{
+        .big-img {
+          margin: 70px auto;
+        }
+
+
+          .cards-and-name-wrapper{
+            .about-big-img {
+              .cards-and-name-wrapper__name {
+                text-align: center;
+              }
+              .cards-and-name-wrapper__description{
+                text-align: center;
+              }
+            }
+
+            .cards-list{
+              justify-content: center;
+              .cards-list__programs{
+                width: 25%;
+                padding-left: 30px;
+              }
+            }
+
+            .staff-gallery__wrapper{
+              width: 75%;
+              margin: 0 auto;
+              .staff-gallery__photo{
+                margin-left: 40px;
+                }
+              }
+            }
+          }
+      }
+    }
+  }
+
+@media (max-width: 500px) {
+  .our-team-block {
+    .container {
+      width: 100%;
+    }
+  }
+  }
